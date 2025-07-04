@@ -60,7 +60,7 @@ export default function HomePage() {
             {/* Main navigation */}
             <div className="flex flex-wrap items-center justify-between py-4">
               <div className="w-1/2 md:w-auto">
-                <a href="/" className="text-gray-800 font-bold text-2xl">
+                <a href="/" className="text-gray-800 font-bold text-lg sm:text-2xl">
                   서울더믿음치과의원
                 </a>
               </div>
@@ -126,7 +126,7 @@ export default function HomePage() {
 
         {/* Doctor Section - Image and text swapped */}
         <section className="relative bg-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-32">
-          <div className="flex flex-col lg:flex-row items-center lg:items-start lg:-mx-8">
+          <div className="flex flex-col-reverse lg:flex-row items-center lg:items-start lg:-mx-8">
             
             {/* Doctor Information - Now on left */}
             <div className="w-full lg:w-1/2 lg:px-8 text-center lg:text-left mb-8 lg:mb-0">
@@ -167,7 +167,7 @@ export default function HomePage() {
             </div>
 
             {/* Doctor Image - Now on right */}
-            <div className="w-full lg:w-1/2 lg:px-8">
+            <div className="w-full lg:w-1/2 lg:px-8 lg:mb-0 mb-[2em]">
               <div className="relative w-full max-w-md mx-auto lg:mx-0">
                 <div className="aspect-[4/5] relative rounded-xl overflow-hidden shadow-xl bg-gray-200 flex items-center justify-center">
                   <div className="text-center">
@@ -185,12 +185,13 @@ export default function HomePage() {
               </div>
             </div>
           </div>
+          
         </div>
         </section>
 
         {/* Doctor Section - Image and text swapped */}
         <section className="relative bg-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-32">
-          <div className="flex flex-col lg:flex-row items-center lg:items-start lg:-mx-8">
+          <div className="flex flex-col-reverse lg:flex-row items-center lg:items-start lg:-mx-8">
             
             {/* Doctor Information - Now on left */}
             <div className="w-full lg:w-1/2 lg:px-8 text-center lg:text-left mb-8 lg:mb-0">
@@ -231,7 +232,7 @@ export default function HomePage() {
             </div>
 
             {/* Doctor Image - Now on right */}
-            <div className="w-full lg:w-1/2 lg:px-8">
+            <div className="w-full lg:w-1/2 lg:px-8 lg:mb-0 mb-[2em]">
               <div className="relative w-full max-w-md mx-auto lg:mx-0">
                 <div className="aspect-[4/5] relative rounded-xl overflow-hidden shadow-xl bg-gray-200 flex items-center justify-center">
                   <div className="text-center">
